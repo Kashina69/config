@@ -4,7 +4,7 @@ require("nvchad.configs.lspconfig").defaults()
 local lspconfig = require "lspconfig"
 
 -- EXAMPLE
-local servers = { "html", "cssls", "tsserver", "eslint", "clangd", "gopls", "rust_analyzer", "marksman" } -- Added servers for TypeScript, ESLint, C, Go, Rust, and Markdown
+local servers = { "html", "cssls", "ts_ls", "eslint", "gopls", "rust_analyzer", "marksman" } -- Added servers for TypeScript, ESLint, C, Go, Rust, and Markdown
 local nvlsp = require "nvchad.configs.lspconfig"
 
 -- lsps with default config
