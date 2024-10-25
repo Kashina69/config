@@ -7,13 +7,13 @@ local M = {}
 
 local options = {
   base46 = {
-    theme = "onedark", -- default theme
+    theme = "catppuccin", -- default theme
     hl_add = {},
     hl_override = {},
     integrations = {},
     changed_themes = {},
     transparency = true,
-    theme_toggle = { "onedark", "one_light" },
+    theme_toggle = { "catppuccin", "one_light" },
   },
 
   ui = {
